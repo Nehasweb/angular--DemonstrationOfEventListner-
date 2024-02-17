@@ -1,0 +1,6 @@
+<h1>Inside Parent Component : App</h1>
+<h1>Parent-Child Communication</h1>
+<app-child [Hello] = "message"></app-child>
+<app-child (Hie) ="send=$event"></app-child>
+<h2>{{send}}</h2>
+<router-outlet></router-outlet>
